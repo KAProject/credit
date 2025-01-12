@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+}
+.login_box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 20px;
+}
+.card {
+    max-width: 550px;
+    width: 100%;
+    .icon{
+        font-size: 30px;
+        color: #fa71cd;
+    }
+}
+.container-card {
+    text-align: center;
+    position: relative;
+    background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+    border-radius: 45px;
+    padding: 40px;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(199, 146, 255);
+    letter-spacing: -0.02em;
+    line-height: 40px;
+}
+
+.card-description {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    max-width: 470px;
+  }
+
+  #btn:hover{
+    /* color: #000; */
+    /* background-color: #fff; */
+    cursor: pointer;
+
+  }

@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+}
+#welcome_line{
+    display: flex;
+    justify-content: center;
+    color: rgba(236, 106, 204, 0.782);
+}
+.abc{
+    /* background: linear-gradient(110.5deg, rgb(247, 185, 248) 22.8%, rgba(253, 120, 4, 0.277) 64.6%); */
+    background-color: rgba(245, 173, 247, 0.889);
+    border-radius: 30px;
+    padding: 10px;
+    border-spacing: 10px;
+    font-size: larger;
+}
+.question{
+    display: inline-block;
+    color:  rgba(241, 3, 250, 0.922);
+    /* font-size: larger; */
+}
+.answer{
+    display: inline-block;
+    /* display: block; */
+    position:absolute;
+    /* align-items: end; */
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    /* align-content: end; */
+    left: 50px;
+    padding-left: 80%;
+    color:  rgba(239, 60, 245, 0.922);
+    /* float: right; */
+}
+/* For tablets and small screens */
+
+/* @media (min-width: 1201px) {
+  /* Styles for large desktops *
+} */
+
+/* @media (min-width: 993px) and (max-width: 1200px) {
+  /* Styles for laptops and desktops *
+} */
+
+/* @media (min-width: 769px) and (max-width: 992px) {
+    /* Styles for tablets in landscape mode or small laptops *
+    .hero_area{
+      height: 30vh;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Styles for tablets in portrait mode *
+  } */
+  
+  @media (max-width: 576px) {
+    /* Styles for phones */
+    .question{
+        font-size: large;
+    }
+    .answer{
+        /* font-size: small; */
+        display: block;
+        position: relative;
+        padding-left: 20%;
+    }
+  }
+.submit{
+   display: flex;
+   justify-content: center;
+  }
+  #check{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    padding: 20px 30px;
+    border-radius: 30px;
+    color:  rgba(239, 60, 245, 0.922);
+    background-color: rgba(245, 173, 247, 0.889);
+    font-weight: bold;
+    font-size: large;
+    /* color: aqua; */
+    /* position: relative; */
+    /* padding-left: 20%; */
+  }
+
+  #check:hover{
+    cursor: pointer;
+  }
+
+  input[type="radio"]{
+    width: 18px;
+    height: 18px;
+  }
